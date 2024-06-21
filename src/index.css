@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backDrop {
+  background-color: rgba(0, 0, 0, 0.3);
+  @apply w-full h-full top-0 left-0 absolute z-10;
+}
+body {
+  background-color: #252525;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
